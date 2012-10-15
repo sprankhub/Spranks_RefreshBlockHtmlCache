@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <modules>
+        <spranks_refreshblockhtmlcache>
+            <version>0.1.0</version>
+        </spranks_refreshblockhtmlcache>
+    </modules>
+
+    <global>
+        <models>
+            <spranks_refreshblockhtmlcache>
+                <class>Spranks_RefreshBlockHtmlCache_Model</class>
+            </spranks_refreshblockhtmlcache>
+        </models>
+    </global>
+
+    <adminhtml>
+        <events>
+            <controller_action_postdispatch_adminhtml_catalog_product_save>
+                <observers>
+                    <spranks_refreshblockhtmlcache>
+                        <class>spranks_refreshblockhtmlcache/observer</class>
+                        <method>controllerActionPostdispatchAdminhtmlCatalogProductSave</method>
+                    </spranks_refreshblockhtmlcache>
+                </observers>
+            </controller_action_postdispatch_adminhtml_catalog_product_save>
+        </events>
+    </adminhtml>
+
+</config>
