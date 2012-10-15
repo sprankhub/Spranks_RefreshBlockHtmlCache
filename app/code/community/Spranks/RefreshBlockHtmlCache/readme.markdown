@@ -4,6 +4,7 @@ This extension refreshes the block HTML cache each time a product is saved.
 
 Facts
 -----
+- this extension is based on the following gist from [Toni Grigoriu](http://www.tonigrigoriu.com/): [https://gist.github.com/1074482](https://gist.github.com/1074482)
 - version: 0.1.0
 - extension key: Spranks_RefreshBlockHtmlCache
 - [extension on GitHub](https://github.com/sprankhub/Spranks_RefreshBlockHtmlCache)
