@@ -30,6 +30,10 @@ Installation Instructions
 2. Clear the cache.
 3. Edit a product, click "Save" and check if the "invalid cache" message is not shown any more.
 
+Uninstallation
+--------------
+1. Remove all extension files from your Magento installation or uninstall the extension via Magento Connect.
+
 Support
 -------
 If you have any issues with this extension, open an issue on [GitHub](https://github.com/company/Spranks_RefreshBlockHtmlCache/issues).
